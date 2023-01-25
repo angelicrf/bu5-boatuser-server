@@ -34,3 +34,4 @@ app.post('/api/user/:clName', async (req, res) => {
 })
 app.listen(port, () => console.log(`app is listening to ${port}`))
 
+module.exports = app;
